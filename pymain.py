@@ -1,7 +1,7 @@
 
 from  BackSimulate import *
 from socket import *
-from PyQt5 import  QtWidgets
+from PyQt5 import  QtWidgets,sip
 from PyQt5.QtGui import *
 from PyQt5.QtCore import *
 from PyQt5.QtWidgets import *
@@ -13,6 +13,12 @@ import time
 import threading
 import binascii
 import sys
+
+import os
+if hasattr(sys, 'frozen'):
+    os.environ['PATH'] = sys._MEIPASS + ";" + os.environ['PATH']
+
+
 
 
 class EmptyDelegate(QItemDelegate):
@@ -489,7 +495,7 @@ class amc_form(QtWidgets.QMainWindow,Ui_MainWindow):
             #for i in range(10):
             #   #str(_a).encode("utf-8")
             #    udp_socket_.sendto(MCS_para1,("127.0.0.1",8080))
-            self.TargetAddr=("127.0.0.1",8080)#测试用，正式使用删除次句子
+            #self.TargetAddr=("127.0.0.1",8080)#测试用，正式使用删除次句子
             self.MCS_SendCmd(udp_socket_,MCS_para1,MCS_Global_lastFrameCount,cmdType)
             udp_socket_.close()
 
@@ -669,4 +675,6 @@ if __name__=="__main__":
     window=QtWidgets.QMainWindow()
     ui=amc_form()
     ui.show()
+    #ui.CmdProcess_udp_socket.close()
     sys.exit(app.exec())
+    #os.system("taskkill /F /IM pymain.exe")
