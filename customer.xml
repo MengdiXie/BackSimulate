@@ -7,113 +7,114 @@
 	<Cmd1     SendPort="5101" TargetPort="5012" RevDataPort="5015" HeartBeatPort="5555" TartGetIP1="192.168.13.1" TartGetIP2="192.168.13.2"/>
   </netWork>
   <Command>
-	<Cmd table="20421" Code="0" Type="系统初始化" Name="初始化"></Cmd>
-	<Cmd table="20421" Code="1" Type="DIO_0/1" Name="断开"></Cmd>
-	<Cmd table="20421" Code="2" Type="DIO_0" Name="DO0第1通道闭合"></Cmd>
-	<Cmd table="20421" Code="3" Type="DIO_0" Name="DO0第2通道闭合"></Cmd>
-	<Cmd table="20421" Code="4" Type="DIO_0" Name="DO0第3通道闭合"></Cmd>
-	<Cmd table="20421" Code="5" Type="DIO_0" Name="DO0第4通道闭合"></Cmd>
-	<Cmd table="20421" Code="6" Type="DIO_0" Name="DO0第5通道闭合"></Cmd>
-	<Cmd table="20421" Code="7" Type="DIO_0" Name="DO0第6通道闭合"></Cmd>
-	<Cmd table="20421" Code="8" Type="DIO_0" Name="DO0第7通道闭合"></Cmd>
-	<Cmd table="20421" Code="9" Type="DIO_0" Name="DO0第8通道闭合"></Cmd>
+	<Cmd table="20421" Code="0" Type="系统初始化" Name="初始化指令"></Cmd>
+	<Cmd table="20421" Code="1" Type="DIO_0/1" Name="断开总开关指令"></Cmd>
+	<Cmd table="20421" Code="2" Type="DIO_0" Name="DO0第1通道闭合指令"></Cmd>
+	<Cmd table="20421" Code="3" Type="DIO_0" Name="DO0第2通道闭合指令"></Cmd>
+	<Cmd table="20421" Code="4" Type="DIO_0" Name="DO0第3通道闭合指令"></Cmd>
+	<Cmd table="20421" Code="5" Type="DIO_0" Name="DO0第4通道闭合指令"></Cmd>
+	<Cmd table="20421" Code="6" Type="DIO_0" Name="DO0第5通道闭合指令"></Cmd>
+	<Cmd table="20421" Code="7" Type="DIO_0" Name="DO0第6通道闭合指令"></Cmd>
+	<Cmd table="20421" Code="8" Type="DIO_0" Name="DO0第7通道闭合指令"></Cmd>
+	<Cmd table="20421" Code="9" Type="DIO_0" Name="DO0第8通道闭合指令"></Cmd>
 	
-	<Cmd table="20421" Code="10" Type="DIO_0" Name="DO1第1通道闭合"></Cmd>
-	<Cmd table="20421" Code="11" Type="DIO_0" Name="DO1第2通道闭合"></Cmd>
-	<Cmd table="20421" Code="12" Type="DIO_0" Name="DO1第3通道闭合"></Cmd>
-	<Cmd table="20421" Code="13" Type="DIO_0" Name="DO1第4通道闭合"></Cmd>
-	<Cmd table="20421" Code="14" Type="DIO_0" Name="DO1第5通道闭合"></Cmd>
-	<Cmd table="20421" Code="15" Type="DIO_0" Name="DO1第6通道闭合"></Cmd>
-	<Cmd table="20421" Code="16" Type="DIO_0" Name="DO1第7通道闭合"></Cmd>
-	<Cmd table="20421" Code="17" Type="DIO_0" Name="DO1第8通道闭合"></Cmd>
+	<Cmd table="20421" Code="10" Type="DIO_0" Name="DO1第1通道闭合指令"></Cmd>
+	<Cmd table="20421" Code="11" Type="DIO_0" Name="DO1第2通道闭合指令"></Cmd>
+	<Cmd table="20421" Code="12" Type="DIO_0" Name="DO1第3通道闭合指令"></Cmd>
+	<Cmd table="20421" Code="13" Type="DIO_0" Name="DO1第4通道闭合指令"></Cmd>
+	<Cmd table="20421" Code="14" Type="DIO_0" Name="DO1第5通道闭合指令"></Cmd>
+	<Cmd table="20421" Code="15" Type="DIO_0" Name="DO1第6通道闭合指令"></Cmd>
+	<Cmd table="20421" Code="16" Type="DIO_0" Name="DO1第7通道闭合指令"></Cmd>
+	<Cmd table="20421" Code="17" Type="DIO_0" Name="DO1第8通道闭合指令"></Cmd>
 	
-	<Cmd table="20421" Code="18" Type="DIO_0" Name="DO2第1通道闭合"></Cmd>
-	<Cmd table="20421" Code="19" Type="DIO_0" Name="DO2第2通道闭合"></Cmd>
-	<Cmd table="20421" Code="20" Type="DIO_0" Name="DO2第3通道闭合"></Cmd>
-	<Cmd table="20421" Code="21" Type="DIO_0" Name="DO2第4通道闭合"></Cmd>
-	<Cmd table="20421" Code="22" Type="DIO_0" Name="DO2第5通道闭合"></Cmd>
-	<Cmd table="20421" Code="23" Type="DIO_0" Name="DO2第6通道闭合"></Cmd>
-	<Cmd table="20421" Code="24" Type="DIO_0" Name="DO2第7通道闭合"></Cmd>
-	<Cmd table="20421" Code="25" Type="DIO_0" Name="DO2第8通道闭合"></Cmd>
+	<Cmd table="20421" Code="18" Type="DIO_0" Name="DO2第1通道闭合指令"></Cmd>
+	<Cmd table="20421" Code="19" Type="DIO_0" Name="DO2第2通道闭合指令"></Cmd>
+	<Cmd table="20421" Code="20" Type="DIO_0" Name="DO2第3通道闭合指令"></Cmd>
+	<Cmd table="20421" Code="21" Type="DIO_0" Name="DO2第4通道闭合指令"></Cmd>
+	<Cmd table="20421" Code="22" Type="DIO_0" Name="DO2第5通道闭合指令"></Cmd>
+	<Cmd table="20421" Code="23" Type="DIO_0" Name="DO2第6通道闭合指令"></Cmd>
+	<Cmd table="20421" Code="24" Type="DIO_0" Name="DO2第7通道闭合指令"></Cmd>
+	<Cmd table="20421" Code="25" Type="DIO_0" Name="DO2第8通道闭合指令"></Cmd>
 	
-	<Cmd table="20421" Code="26" Type="DIO_0" Name="DO3第1通道闭合"></Cmd>
-	<Cmd table="20421" Code="27" Type="DIO_0" Name="DO3第2通道闭合"></Cmd>
-	<Cmd table="20421" Code="28" Type="DIO_0" Name="DO3第3通道闭合"></Cmd>
-	<Cmd table="20421" Code="29" Type="DIO_0" Name="DO3第4通道闭合"></Cmd>
-	<Cmd table="20421" Code="30" Type="DIO_0" Name="DO3第5通道闭合"></Cmd>
-	<Cmd table="20421" Code="31" Type="DIO_0" Name="DO3第6通道闭合"></Cmd>
-	<Cmd table="20421" Code="32" Type="DIO_0" Name="DO3第7通道闭合"></Cmd>
-	<Cmd table="20421" Code="33" Type="DIO_0" Name="DO3第8通道闭合"></Cmd>
-	
-	
-	<Cmd table="20421" Code="34" Type="DIO_1" Name="DO0第1通道闭合"></Cmd>
-	<Cmd table="20421" Code="35" Type="DIO_1" Name="DO0第2通道闭合"></Cmd>
-	<Cmd table="20421" Code="36" Type="DIO_1" Name="DO0第3通道闭合"></Cmd>
-	<Cmd table="20421" Code="37" Type="DIO_1" Name="DO0第4通道闭合"></Cmd>
-	<Cmd table="20421" Code="38" Type="DIO_1" Name="DO0第5通道闭合"></Cmd>
-	<Cmd table="20421" Code="39" Type="DIO_1" Name="DO0第6通道闭合"></Cmd>
-	<Cmd table="20421" Code="40" Type="DIO_1" Name="DO0第7通道闭合"></Cmd>
-	<Cmd table="20421" Code="41" Type="DIO_1" Name="DO0第8通道闭合"></Cmd>
-	
-	<Cmd table="20421" Code="42" Type="DIO_1" Name="DO1第1通道闭合"></Cmd>
-	<Cmd table="20421" Code="43" Type="DIO_1" Name="DO1第2通道闭合"></Cmd>
-	<Cmd table="20421" Code="44" Type="DIO_1" Name="DO1第3通道闭合"></Cmd>
-	<Cmd table="20421" Code="45" Type="DIO_1" Name="DO1第4通道闭合"></Cmd>
-	<Cmd table="20421" Code="46" Type="DIO_1" Name="DO1第5通道闭合"></Cmd>
-	<Cmd table="20421" Code="47" Type="DIO_1" Name="DO1第6通道闭合"></Cmd>
-	<Cmd table="20421" Code="48" Type="DIO_1" Name="DO1第7通道闭合"></Cmd>
-	<Cmd table="20421" Code="49" Type="DIO_1" Name="DO1第8通道闭合"></Cmd>
-	
-	<Cmd table="20421" Code="50" Type="DIO_1" Name="DO2第1通道闭合"></Cmd>
-	<Cmd table="20421" Code="51" Type="DIO_1" Name="DO2第2通道闭合"></Cmd>
-	<Cmd table="20421" Code="52" Type="DIO_1" Name="DO2第3通道闭合"></Cmd>
-	<Cmd table="20421" Code="53" Type="DIO_1" Name="DO2第4通道闭合"></Cmd>
-	<Cmd table="20421" Code="54" Type="DIO_1" Name="DO2第5通道闭合"></Cmd>
-	<Cmd table="20421" Code="55" Type="DIO_1" Name="DO2第6通道闭合"></Cmd>
-	<Cmd table="20421" Code="56" Type="DIO_1" Name="DO2第7通道闭合"></Cmd>
-	<Cmd table="20421" Code="57" Type="DIO_1" Name="DO2第8通道闭合"></Cmd>
-	
-	<Cmd table="20421" Code="58" Type="DIO_1" Name="DO3第1通道闭合"></Cmd>
-	<Cmd table="20421" Code="59" Type="DIO_1" Name="DO3第2通道闭合"></Cmd>
-	<Cmd table="20421" Code="60" Type="DIO_1" Name="DO3第3通道闭合"></Cmd>
-	<Cmd table="20421" Code="61" Type="DIO_1" Name="DO3第4通道闭合"></Cmd>
-	<Cmd table="20421" Code="62" Type="DIO_1" Name="DO3第5通道闭合"></Cmd>
-	<Cmd table="20421" Code="63" Type="DIO_1" Name="DO3第6通道闭合"></Cmd>
-	<Cmd table="20421" Code="64" Type="DIO_1" Name="DO3第7通道闭合"></Cmd>
-	<Cmd table="20421" Code="65" Type="DIO_1" Name="DO3第8通道闭合"></Cmd>	
-	
-	<Cmd table="20421" Code="66" Type="DIO_0" Name="DO0闭合"></Cmd>	
-	<Cmd table="20421" Code="67" Type="DIO_0" Name="DO0断开"></Cmd>	
-	<Cmd table="20421" Code="68" Type="DIO_0" Name="DO1闭合"></Cmd>	
-	<Cmd table="20421" Code="69" Type="DIO_0" Name="DO1断开"></Cmd>	
-	<Cmd table="20421" Code="70" Type="DIO_0" Name="DO2闭合"></Cmd>	
-	<Cmd table="20421" Code="71" Type="DIO_0" Name="DO2断开"></Cmd>	
-	<Cmd table="20421" Code="72" Type="DIO_0" Name="DO3闭合"></Cmd>	
-	<Cmd table="20421" Code="73" Type="DIO_0" Name="DO3断开"></Cmd>	
-	
-	<Cmd table="20421" Code="74" Type="DIO_1" Name="DO0闭合"></Cmd>	
-	<Cmd table="20421" Code="75" Type="DIO_1" Name="DO0断开"></Cmd>	
-	<Cmd table="20421" Code="76" Type="DIO_1" Name="DO1闭合"></Cmd>	
-	<Cmd table="20421" Code="77" Type="DIO_1" Name="DO1断开"></Cmd>	
-	<Cmd table="20421" Code="78" Type="DIO_1" Name="DO2闭合"></Cmd>	
-	<Cmd table="20421" Code="79" Type="DIO_1" Name="DO2断开"></Cmd>	
-	<Cmd table="20421" Code="80" Type="DIO_1" Name="DO3闭合"></Cmd>	
-	<Cmd table="20421" Code="81" Type="DIO_1" Name="DO3断开"></Cmd>	
+	<Cmd table="20421" Code="26" Type="DIO_0" Name="DO3第1通道闭合指令"></Cmd>
+	<Cmd table="20421" Code="27" Type="DIO_0" Name="DO3第2通道闭合指令"></Cmd>
+	<Cmd table="20421" Code="28" Type="DIO_0" Name="DO3第3通道闭合指令"></Cmd>
+	<Cmd table="20421" Code="29" Type="DIO_0" Name="DO3第4通道闭合指令"></Cmd>
+	<Cmd table="20421" Code="30" Type="DIO_0" Name="DO3第5通道闭合指令"></Cmd>
+	<Cmd table="20421" Code="31" Type="DIO_0" Name="DO3第6通道闭合指令"></Cmd>
+	<Cmd table="20421" Code="32" Type="DIO_0" Name="DO3第7通道闭合指令"></Cmd>
+	<Cmd table="20421" Code="33" Type="DIO_0" Name="DO3第8通道闭合指令"></Cmd>
 	
 	
-	<Cmd table="20421" Code="82" Type="模拟量采集" Name="开始"></Cmd>	
-	<Cmd table="20421" Code="83" Type="模拟量采集" Name="停止"></Cmd>	
-	<Cmd table="20421" Code="84" Type="切换操作" Name="主从切换"></Cmd>		
-	<Cmd table="20421" Code="85" Type="串口操作" Name="开始"></Cmd>	
-	<Cmd table="20421" Code="86" Type="串口操作" Name="停止"></Cmd>	
-	<Cmd table="20421" Code="87" Type="模拟量输出" Name="1通道输出"></Cmd>	
-	<Cmd table="20421" Code="88" Type="模拟量输出" Name="2通道输出"></Cmd>	
-	<Cmd table="20421" Code="88" Type="模拟量输出" Name="3通道输出"></Cmd>	
-	<Cmd table="20421" Code="89" Type="模拟量输出" Name="4通道输出"></Cmd>		
-	<Cmd table="20421" Code="91" Type="串口操作" Name="选择通道开始"></Cmd>	
-	<Cmd table="20421" Code="92" Type="监测" Name="获取"></Cmd>			
-	<Cmd table="20421" Code="93" Type="网络" Name="启动网络测试"></Cmd>	
-	<Cmd table="20421" Code="94" Type="监测" Name="关闭网络测试"></Cmd>			
+	<Cmd table="20421" Code="34" Type="DIO_1" Name="DO0第1通道闭合指令"></Cmd>
+	<Cmd table="20421" Code="35" Type="DIO_1" Name="DO0第2通道闭合指令"></Cmd>
+	<Cmd table="20421" Code="36" Type="DIO_1" Name="DO0第3通道闭合指令"></Cmd>
+	<Cmd table="20421" Code="37" Type="DIO_1" Name="DO0第4通道闭合指令"></Cmd>
+	<Cmd table="20421" Code="38" Type="DIO_1" Name="DO0第5通道闭合指令"></Cmd>
+	<Cmd table="20421" Code="39" Type="DIO_1" Name="DO0第6通道闭合指令"></Cmd>
+	<Cmd table="20421" Code="40" Type="DIO_1" Name="DO0第7通道闭合指令"></Cmd>
+	<Cmd table="20421" Code="41" Type="DIO_1" Name="DO0第8通道闭合指令"></Cmd>
+	
+	<Cmd table="20421" Code="42" Type="DIO_1" Name="DO1第1通道闭合指令"></Cmd>
+	<Cmd table="20421" Code="43" Type="DIO_1" Name="DO1第2通道闭合指令"></Cmd>
+	<Cmd table="20421" Code="44" Type="DIO_1" Name="DO1第3通道闭合指令"></Cmd>
+	<Cmd table="20421" Code="45" Type="DIO_1" Name="DO1第4通道闭合指令"></Cmd>
+	<Cmd table="20421" Code="46" Type="DIO_1" Name="DO1第5通道闭合指令"></Cmd>
+	<Cmd table="20421" Code="47" Type="DIO_1" Name="DO1第6通道闭合指令"></Cmd>
+	<Cmd table="20421" Code="48" Type="DIO_1" Name="DO1第7通道闭合指令"></Cmd>
+	<Cmd table="20421" Code="49" Type="DIO_1" Name="DO1第8通道闭合指令"></Cmd>
+	
+	<Cmd table="20421" Code="50" Type="DIO_1" Name="DO2第1通道闭合指令"></Cmd>
+	<Cmd table="20421" Code="51" Type="DIO_1" Name="DO2第2通道闭合指令"></Cmd>
+	<Cmd table="20421" Code="52" Type="DIO_1" Name="DO2第3通道闭合指令"></Cmd>
+	<Cmd table="20421" Code="53" Type="DIO_1" Name="DO2第4通道闭合指令"></Cmd>
+	<Cmd table="20421" Code="54" Type="DIO_1" Name="DO2第5通道闭合指令"></Cmd>
+	<Cmd table="20421" Code="55" Type="DIO_1" Name="DO2第6通道闭合指令"></Cmd>
+	<Cmd table="20421" Code="56" Type="DIO_1" Name="DO2第7通道闭合指令"></Cmd>
+	<Cmd table="20421" Code="57" Type="DIO_1" Name="DO2第8通道闭合指令"></Cmd>
+	
+	<Cmd table="20421" Code="58" Type="DIO_1" Name="DO3第1通道闭合指令"></Cmd>
+	<Cmd table="20421" Code="59" Type="DIO_1" Name="DO3第2通道闭合指令"></Cmd>
+	<Cmd table="20421" Code="60" Type="DIO_1" Name="DO3第3通道闭合指令"></Cmd>
+	<Cmd table="20421" Code="61" Type="DIO_1" Name="DO3第4通道闭合指令"></Cmd>
+	<Cmd table="20421" Code="62" Type="DIO_1" Name="DO3第5通道闭合指令"></Cmd>
+	<Cmd table="20421" Code="63" Type="DIO_1" Name="DO3第6通道闭合指令"></Cmd>
+	<Cmd table="20421" Code="64" Type="DIO_1" Name="DO3第7通道闭合指令"></Cmd>
+	<Cmd table="20421" Code="65" Type="DIO_1" Name="DO3第8通道闭合指令"></Cmd>	
+	
+	<Cmd table="20421" Code="66" Type="DIO_0" Name="DO0（8路）闭合指令"></Cmd>	
+	<Cmd table="20421" Code="67" Type="DIO_0" Name="DO0（8路）断开指令"></Cmd>	
+	<Cmd table="20421" Code="68" Type="DIO_0" Name="DO1（8路）闭合指令"></Cmd>	
+	<Cmd table="20421" Code="69" Type="DIO_0" Name="DO1（8路）断开指令"></Cmd>	
+	<Cmd table="20421" Code="70" Type="DIO_0" Name="DO2（8路）闭合指令"></Cmd>	
+	<Cmd table="20421" Code="71" Type="DIO_0" Name="DO2（8路）断开指令"></Cmd>	
+	<Cmd table="20421" Code="72" Type="DIO_0" Name="DO3（8路）闭合指令"></Cmd>	
+	<Cmd table="20421" Code="73" Type="DIO_0" Name="DO3（8路）断开指令"></Cmd>	
+	
+	<Cmd table="20421" Code="74" Type="DIO_1" Name="DO0（8路）闭合指令"></Cmd>	
+	<Cmd table="20421" Code="75" Type="DIO_1" Name="DO0（8路）断开指令"></Cmd>	
+	<Cmd table="20421" Code="76" Type="DIO_1" Name="DO1（8路）闭合指令"></Cmd>	
+	<Cmd table="20421" Code="77" Type="DIO_1" Name="DO1（8路）断开指令"></Cmd>	
+	<Cmd table="20421" Code="78" Type="DIO_1" Name="DO2（8路）闭合指令"></Cmd>	
+	<Cmd table="20421" Code="79" Type="DIO_1" Name="DO2（8路）断开指令"></Cmd>	
+	<Cmd table="20421" Code="80" Type="DIO_1" Name="DO3（8路）闭合指令"></Cmd>	
+	<Cmd table="20421" Code="81" Type="DIO_1" Name="DO3（8路）断开指令"></Cmd>	
+	
+	
+	<Cmd table="20421" Code="82" Type="模拟量采集" Name="采集开始指令"></Cmd>	
+	<Cmd table="20421" Code="83" Type="模拟量采集" Name="采集停止指令"></Cmd>	
+	<Cmd table="20421" Code="84" Type="切换操作" Name="主从切换指令"></Cmd>		
+	<Cmd table="20421" Code="85" Type="串口操作" Name="串口0开始指令"></Cmd>	
+	<Cmd table="20421" Code="86" Type="串口操作" Name="串口停止指令"></Cmd>	
+	<Cmd table="20421" Code="87" Type="模拟量输出" Name="1通道输出指令"></Cmd>	
+	<Cmd table="20421" Code="88" Type="模拟量输出" Name="2通道输出指令"></Cmd>	
+	<Cmd table="20421" Code="88" Type="模拟量输出" Name="3通道输出指令"></Cmd>	
+	<Cmd table="20421" Code="89" Type="模拟量输出" Name="4通道输出指令"></Cmd>		
+	<Cmd table="20421" Code="91" Type="串口操作" Name="串口开始（可选通道）指令"></Cmd>	
+	<Cmd table="20421" Code="92" Type="监测" Name="获取监测信息指令"></Cmd>			
+	<Cmd table="20421" Code="93" Type="网络" Name="启动网络测试指令"></Cmd>	
+	<Cmd table="20421" Code="94" Type="网络" Name="关闭网络测试指令"></Cmd>	
+	<Cmd table="20421" Code="95" Type="监测" Name="读取对机心跳数指令"></Cmd>		
   </Command>
   <DataCollect per="200">
 	<Data table="20821" Code="1" Type="模拟量频采输入" Name="模拟通道1"></Data>
