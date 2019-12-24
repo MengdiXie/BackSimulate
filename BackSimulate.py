@@ -136,8 +136,6 @@ class Ui_mainDialog(object):
         fcolor = QtGui.QPalette()
         fcolor.setColor(QPalette.WindowText, Qt.yellow)
 
-
-
         self.label = QtWidgets.QLabel(Dialog)
         self.label.setGeometry(QtCore.QRect(10, 30, 180, 16))
         self.label.setObjectName("label")
@@ -168,62 +166,94 @@ class Ui_mainDialog(object):
 class Ui_tableDialog(object):
     def setupUi(self,Dialog):
         Dialog.setObjectName("Dialog")
-        Dialog.resize(366, 450)
+        Dialog.resize(366, 500)
 
         self.buttonBox = QtWidgets.QDialogButtonBox(Dialog)
-        self.buttonBox.setGeometry(QtCore.QRect(10, 400, 341, 32))
+        self.buttonBox.setGeometry(QtCore.QRect(10, 460, 341, 32))
         self.buttonBox.setOrientation(QtCore.Qt.Horizontal)
         self.buttonBox.setStandardButtons(QtWidgets.QDialogButtonBox.Cancel|QtWidgets.QDialogButtonBox.Ok)
         self.buttonBox.setObjectName("buttonBox")
 
         self.label = QtWidgets.QLabel(Dialog)
-        self.label.setGeometry(QtCore.QRect(40, 16, 81, 16))
+        self.label.setGeometry(QtCore.QRect(25, 17, 81, 16))
         self.label.setObjectName("label")
 
         self.lineEdit = QtWidgets.QLineEdit(Dialog)
-        self.lineEdit.setGeometry(QtCore.QRect(130, 10, 200, 30))
+        self.lineEdit.setGeometry(QtCore.QRect(150, 10, 200, 30))
         self.lineEdit.setObjectName("lineEdit")
 
         #self.lineEdit.textChanged.connect(self.handleTextChanged)
 
         self.labe2 = QtWidgets.QLabel(Dialog)
-        self.labe2.setGeometry(QtCore.QRect(40, 55, 81, 16))
+        self.labe2.setGeometry(QtCore.QRect(25, 57, 81, 16))
         self.labe2.setObjectName("产品编号：")
 
         self.lineEdit2 = QtWidgets.QLineEdit(Dialog)
-        self.lineEdit2.setGeometry(QtCore.QRect(130, 50, 200, 30))
+        self.lineEdit2.setGeometry(QtCore.QRect(150, 50, 200, 30))
         self.lineEdit2.setObjectName("lineEdit")
 
 
 
         self.labe3 = QtWidgets.QLabel(Dialog)
-        self.labe3.setGeometry(QtCore.QRect(40, 95, 81, 16))
+        self.labe3.setGeometry(QtCore.QRect(25, 97, 81, 16))
         self.labe3.setObjectName("产品编号：")
 
         self.lineEdit3 = QtWidgets.QLineEdit(Dialog)
-        self.lineEdit3.setGeometry(QtCore.QRect(130, 90, 200, 30))
+        self.lineEdit3.setGeometry(QtCore.QRect(150, 90, 200, 30))
         self.lineEdit3.setObjectName("lineEdit")
 
 
         self.labe4 = QtWidgets.QLabel(Dialog)
-        self.labe4.setGeometry(QtCore.QRect(40, 133, 81, 16))
+        self.labe4.setGeometry(QtCore.QRect(25, 137, 81, 16))
         self.labe4.setObjectName("产品编号：")
 
         self.lineEdit4 = QtWidgets.QLineEdit(Dialog)
-        self.lineEdit4.setGeometry(QtCore.QRect(130, 130, 200, 30))
+        self.lineEdit4.setGeometry(QtCore.QRect(150, 130, 200, 30))
         self.lineEdit4.setObjectName("lineEdit")
 
         self.labe5 = QtWidgets.QLabel(Dialog)
-        self.labe5.setGeometry(QtCore.QRect(40, 172, 81, 16))
+        self.labe5.setGeometry(QtCore.QRect(25, 177, 81, 16))
         self.labe5.setObjectName("产品编号：")
 
         self.lineEdit5 = QtWidgets.QLineEdit(Dialog)
-        self.lineEdit5.setGeometry(QtCore.QRect(130, 170, 200, 30))
+        self.lineEdit5.setGeometry(QtCore.QRect(150, 170, 200, 30))
         self.lineEdit5.setObjectName("lineEdit")
+
+        self.labe_模拟量输出 = QtWidgets.QLabel(Dialog)
+        self.labe_模拟量输出.setGeometry(QtCore.QRect(25, 217, 81, 16))
+        self.labe_模拟量输出.setObjectName("模拟量输出：")
+
+        self.lineEdit_模拟量输出=QtWidgets.QLineEdit(Dialog)
+        self.lineEdit_模拟量输出.setGeometry(QtCore.QRect(150, 210, 200, 30))
+        self.lineEdit_模拟量输出.setObjectName("模拟量输出")
+
+        self.labe_双机切换时间 = QtWidgets.QLabel(Dialog)
+        self.labe_双机切换时间.setGeometry(QtCore.QRect(25, 257, 81, 16))
+        self.labe_双机切换时间.setObjectName("双机切换时间：")
+
+        self.lineEdit_双机切换时间 = QtWidgets.QLineEdit(Dialog)
+        self.lineEdit_双机切换时间.setGeometry(QtCore.QRect(150, 250, 200, 30))
+        self.lineEdit_双机切换时间.setObjectName("双机切换时间")
+
+        self.labe_功耗 = QtWidgets.QLabel(Dialog)
+        self.labe_功耗.setGeometry(QtCore.QRect(25, 297, 81, 16))
+        self.labe_功耗.setObjectName("功耗：")
+
+        self.lineEdit_功耗 = QtWidgets.QLineEdit(Dialog)
+        self.lineEdit_功耗.setGeometry(QtCore.QRect(150, 290, 200, 30))
+        self.lineEdit_功耗.setObjectName("lineEdit_功耗")
+
+        self.labe_心跳 = QtWidgets.QLabel(Dialog)
+        self.labe_心跳.setGeometry(QtCore.QRect(25, 337, 81, 16))
+        self.labe_心跳.setObjectName("心跳：")
+
+        self.lineEdit_心跳 = QtWidgets.QLineEdit(Dialog)
+        self.lineEdit_心跳.setGeometry(QtCore.QRect(150, 330, 200, 30))
+        self.lineEdit_心跳.setObjectName("lineEdit_心跳")
 
 
         self.button_load = QtWidgets.QPushButton(Dialog)
-        self.button_load.setGeometry(QtCore.QRect(30, 210, 200, 30))
+        self.button_load.setGeometry(QtCore.QRect(150, 400, 200, 30))
         self.button_load.setObjectName("lineEdit")
         self.button_load.clicked.connect(self._reloaddata)
 
@@ -240,14 +270,36 @@ class Ui_tableDialog(object):
             print(target)
             if os.path.exists(target) == True:
                 _sheet1 = ['D5', 'D6', 'D10', 'D11']
+                _sheet6 = ['C13', 'F13', 'C19', 'F19', 'I4', 'I6', 'I8', 'I10','E18']
+                _sheet7=['A16','B16','E16','B22']
                 excel_obj = openpyxl.load_workbook(target)
                 new_sheet = excel_obj.worksheets[0]
                 print(new_sheet[_sheet1[0]].value)
                 self.lineEdit2.setText(str(new_sheet[_sheet1[0]].value))
-                self.lineEdit3.setText(str(new_sheet[_sheet1[1]].value))
+                self.lineEdit3.setText(str(new_sheet[_sheet1[1]].value).split(",")[0])
                 print(new_sheet[_sheet1[2]].value)
                 self.lineEdit4.setText(str(new_sheet[_sheet1[2]].value))
                 self.lineEdit5.setText(str(new_sheet[_sheet1[3]].value))
+
+                new_sheet = excel_obj.worksheets[5]
+                _list_模拟量输出=[]
+                for i in range(4):
+                    _list_模拟量输出.append(new_sheet[_sheet6[i+4]].value)
+                #print(_list_模拟量输出)
+                _list_模拟量输出=",".join(str(i) for i in _list_模拟量输出) #给list加,
+                self.lineEdit_模拟量输出.setText(str(_list_模拟量输出))
+
+                self.lineEdit_双机切换时间.setText(str(new_sheet[_sheet6[8]].value))
+
+                new_sheet = excel_obj.worksheets[6]
+                _list_电流电压 = []
+                for i in range(2):
+                    _list_电流电压.append(new_sheet[_sheet7[i]].value)
+                _list_电流电压 = ",".join(str(i) for i in _list_电流电压)  # 给list加,
+                self.lineEdit_功耗.setText(str(_list_电流电压))
+
+                self.lineEdit_心跳.setText(str(new_sheet[_sheet7[3]].value))
+
 
                 excel_obj.close()
             else:
@@ -273,6 +325,10 @@ class Ui_tableDialog(object):
         self.labe5.setText(_translate("Dialog", "温    度："))
         self.button_load.setText(_translate("Dialog", "重载文件"))
 
+        self.labe_模拟量输出.setText(_translate("Dialog", "模拟输出/V："))
+        self.labe_双机切换时间.setText(_translate("Dialog", "切换时间/s："))
+        self.labe_功耗.setText(_translate("Dialog", "电流/电压："))
+        self.labe_心跳.setText(_translate("Dialog", "脉冲数据："))
 
 class Ui_Dialog(object):
     def setupUi(self, Dialog):

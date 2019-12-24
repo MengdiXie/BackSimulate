@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20d334da-11a2-4d64-9404-338d73fff8a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BackSimulate.py" beforeDir="false" afterPath="$PROJECT_DIR$/BackSimulate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/background.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customer.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pymain.py" beforeDir="false" afterPath="$PROJECT_DIR$/pymain.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/嵌入式测试表/嵌入式整机模板.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/嵌入式测试表/嵌入式整机模板.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/嵌入式测试表/嵌入式测控设备第二套.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/嵌入式测试表/嵌入式测控设备第二套.xlsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pymain.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="488" lean-forward="true" selection-start-line="488" selection-end-line="488" />
+            <state relative-caret-position="1180">
+              <caret line="674" lean-forward="true" selection-start-line="674" selection-end-line="674" />
               <folding>
                 <element signature="e#1#28#0" expanded="true" />
               </folding>
@@ -29,10 +29,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../bugs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="97" column="7" lean-forward="true" selection-start-line="97" selection-start-column="7" selection-end-line="97" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../examproject/learnproject.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="165" column="39" lean-forward="true" selection-start-line="165" selection-start-column="16" selection-end-line="165" selection-end-column="39" />
+            <state relative-caret-position="34">
+              <caret line="145" column="15" lean-forward="true" selection-start-line="145" selection-start-column="15" selection-end-line="145" selection-end-column="15" />
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
               </folding>
@@ -40,13 +49,22 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BackSimulate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="883">
-              <caret line="150" column="26" lean-forward="true" selection-start-line="150" selection-start-column="26" selection-end-line="150" selection-end-column="26" />
+            <state relative-caret-position="532">
+              <caret line="214" column="51" selection-start-line="214" selection-start-column="51" selection-end-line="214" selection-end-column="51" />
               <folding>
-                <element signature="e#202#244#0" expanded="true" />
+                <element signature="n#!!doc" />
+                <element signature="e#428#4719#0" />
+                <element signature="e#467#3708#0" />
+                <element signature="e#3761#4719#0" />
+                <element signature="e#4754#6394#0" />
+                <element signature="e#4788#6104#0" />
+                <element signature="e#6155#6394#0" />
+                <element signature="e#10564#12171#0" />
+                <element signature="e#10599#11899#0" />
+                <element signature="e#11946#12171#0" />
               </folding>
             </state>
           </provider>
@@ -67,42 +85,27 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/../../examproject/learnproject.py" />
-        <option value="$PROJECT_DIR$/BackSimulate.py" />
+        <option value="$PROJECT_DIR$/../../bugs.py" />
         <option value="$PROJECT_DIR$/pymain.py" />
+        <option value="$PROJECT_DIR$/BackSimulate.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="408" />
-    <option name="width" value="1508" />
-    <option name="height" value="1038" />
+    <option name="x" value="638" />
+    <option name="y" value="3" />
+    <option name="width" value="1510" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="BackSimulate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BackSimulate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BackSimulate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../bugs.py" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
@@ -133,14 +136,17 @@
       <workItem from="1576842906942" duration="13156000" />
       <workItem from="1576893056773" duration="4284000" />
       <workItem from="1576920390112" duration="29523000" />
+      <workItem from="1577100553297" duration="7739000" />
+      <workItem from="1577161677284" duration="12186000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55228000" />
+    <option name="totallyTimeSpent" value="75153000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="327" y="0" width="1206" height="830" extended-state="0" />
+    <frame x="511" y="3" width="1208" height="832" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.22735192" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -192,15 +198,9 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/background-01.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/background-02.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/background-old.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/background-01.jpg" />
+    <entry file="file://$PROJECT_DIR$/background-02.jpg" />
+    <entry file="file://$PROJECT_DIR$/background-old.jpg" />
     <entry file="file://$PROJECT_DIR$/light_off.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -209,30 +209,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../examproject/learnproject.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="165" column="39" lean-forward="true" selection-start-line="165" selection-start-column="16" selection-end-line="165" selection-end-column="39" />
+        <state relative-caret-position="34">
+          <caret line="145" column="15" lean-forward="true" selection-start-line="145" selection-start-column="15" selection-end-line="145" selection-end-column="15" />
           <folding>
             <element signature="e#0#16#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BackSimulate.py">
+    <entry file="file://$PROJECT_DIR$/../../bugs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="883">
-          <caret line="150" column="26" lean-forward="true" selection-start-line="150" selection-start-column="26" selection-end-line="150" selection-end-column="26" />
-          <folding>
-            <element signature="e#202#244#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="312">
+          <caret line="97" column="7" lean-forward="true" selection-start-line="97" selection-start-column="7" selection-end-line="97" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pymain.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="488" lean-forward="true" selection-start-line="488" selection-end-line="488" />
+        <state relative-caret-position="1180">
+          <caret line="674" lean-forward="true" selection-start-line="674" selection-end-line="674" />
           <folding>
             <element signature="e#1#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BackSimulate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="214" column="51" selection-start-line="214" selection-start-column="51" selection-end-line="214" selection-end-column="51" />
+          <folding>
+            <element signature="n#!!doc" />
+            <element signature="e#428#4719#0" />
+            <element signature="e#467#3708#0" />
+            <element signature="e#3761#4719#0" />
+            <element signature="e#4754#6394#0" />
+            <element signature="e#4788#6104#0" />
+            <element signature="e#6155#6394#0" />
+            <element signature="e#10564#12171#0" />
+            <element signature="e#10599#11899#0" />
+            <element signature="e#11946#12171#0" />
           </folding>
         </state>
       </provider>

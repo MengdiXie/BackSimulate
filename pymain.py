@@ -571,6 +571,11 @@ class amc_form(QtWidgets.QMainWindow,Ui_MainWindow):
     def Inputtable(self):
         #print("开始填表!")
         #self.InputTableDialog.show()
+
+        f_txt=open('./嵌入式测试表/RecentFile.txt')
+        self.inputtable_dialog.lineEdit.setText(f_txt.read())
+        f_txt.close()
+        self.inputtable_dialog._reloaddata()
         rsp = self.InputTableDialog.exec()
         if rsp == QtWidgets.QDialog.Accepted:#新建测试文件
             global  global_getdataornot
@@ -599,16 +604,26 @@ class amc_form(QtWidgets.QMainWindow,Ui_MainWindow):
         _sheet3=['C38','F38']
         _sheet4=['C38','F38']
         _sheet5= ['C34','F34']
-        _sheet6= ['C13', 'F13','D19', 'F19']
-        _sheet7 = ['B7', 'E7', 'B12', 'E12', 'B17', 'E17', 'B23', 'E23']
+        _sheet6= ['C13', 'F13','C19', 'F19','I4','I6','I8','I10','E18']
+        _sheet7 = ['B7', 'E7', 'B12', 'E12', 'B17', 'E17', 'B23', 'E23','A16','B16','E16','B22']
+        RecentFile=self.inputtable_dialog.lineEdit.text()
         product=self.inputtable_dialog.lineEdit2.text()
         examname = self.inputtable_dialog.lineEdit3.text()
         humidity = self.inputtable_dialog.lineEdit4.text()
         temperature = self.inputtable_dialog.lineEdit5.text()
+        list_模拟量输出采集值=self.inputtable_dialog.lineEdit_模拟量输出.text().split(",")
+        print(list_模拟量输出采集值)
+
+        time_双机切换时间=self.inputtable_dialog.lineEdit_双机切换时间.text()
+
+        list_电流电压=self.inputtable_dialog.lineEdit_功耗.text().split(",")
+
+        heart_data=self.inputtable_dialog.lineEdit_心跳.text()
+
         excel_obj = openpyxl.load_workbook(global_targetfile)
         new_sheet = excel_obj.worksheets[0]
         new_sheet[_sheet1[0]] = product
-        new_sheet[_sheet1[1]] = examname+str(datetime.datetime.now().strftime('%Y/%m/%d'))
+        new_sheet[_sheet1[1]] = examname+str(",")+str(datetime.datetime.now().strftime('%Y/%m/%d'))
         new_sheet[_sheet1[2]] = humidity
         new_sheet[_sheet1[3]] = temperature
 
@@ -621,9 +636,48 @@ class amc_form(QtWidgets.QMainWindow,Ui_MainWindow):
         new_sheet = excel_obj.worksheets[3]
         new_sheet[_sheet4[0]] = examname
         new_sheet[_sheet4[1]] = datetime.datetime.now().strftime('%Y/%m/%d')
+
         new_sheet = excel_obj.worksheets[4]
         new_sheet[_sheet5[0]] = examname
         new_sheet[_sheet5[1]] = datetime.datetime.now().strftime('%Y/%m/%d')
+
+        new_sheet = excel_obj.worksheets[5]
+        new_sheet[_sheet6[0]] = examname
+        new_sheet[_sheet6[1]] = datetime.datetime.now().strftime('%Y/%m/%d')
+        new_sheet[_sheet6[2]] = examname
+        new_sheet[_sheet6[3]] = datetime.datetime.now().strftime('%Y/%m/%d')
+
+        if len(list_模拟量输出采集值) == 4:
+            for i,d in enumerate(list_模拟量输出采集值):
+                new_sheet[_sheet6[i+4]]=list_模拟量输出采集值[i]
+        else:
+            QMessageBox.information(self,'模拟量输出数量提示','数量不满等于4，请检查！')
+            pass
+
+        new_sheet[_sheet6[8]] = time_双机切换时间
+
+
+        new_sheet = excel_obj.worksheets[6]
+        new_sheet[_sheet7[0]] = examname
+        new_sheet[_sheet7[1]] = datetime.datetime.now().strftime('%Y/%m/%d')
+        new_sheet[_sheet7[2]] = examname
+        new_sheet[_sheet7[3]] = datetime.datetime.now().strftime('%Y/%m/%d')
+        new_sheet[_sheet7[4]] = examname
+        new_sheet[_sheet7[5]] = datetime.datetime.now().strftime('%Y/%m/%d')
+        new_sheet[_sheet7[6]] = examname
+        new_sheet[_sheet7[7]] = datetime.datetime.now().strftime('%Y/%m/%d')
+
+        new_sheet[_sheet7[8]]=list_电流电压[0]
+        new_sheet[_sheet7[9]] = list_电流电压[1]
+        new_sheet[_sheet7[10]]="{:.4f}".format(float(list_电流电压[0])*float(list_电流电压[1]))
+
+        new_sheet[_sheet7[11]]=heart_data
+
+        f_txt = open('./嵌入式测试表/RecentFile.txt','r+')
+        f_txt.write(RecentFile)
+        f_txt.truncate()#清空txt
+        f_txt.close()
+
 
         excel_obj.save(global_targetfile)
 
